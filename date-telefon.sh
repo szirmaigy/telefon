@@ -1,5 +1,5 @@
 #!/bin/bash
-FOLD='/home/szirmaigy/Asztal/teszt/recordings'
+FOLD='/'
 for x in $FOLD/*.mp3; do
   date=$(echo $x | cut -d"#" -f2)
   Y=${date:0:4}
